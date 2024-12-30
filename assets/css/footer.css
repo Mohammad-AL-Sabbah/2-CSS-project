@@ -1,0 +1,370 @@
+.footer {
+  width: 100%;
+  height: 27rem;
+  background-color: #393e46;
+}
+.footer-containner {
+  width: 90%;
+  margin: auto;
+  height: 27rem;
+  display: flex;
+  align-items: center;
+}
+.main-sec {
+  width: 55%;
+}
+
+.tit-cont {
+  display: flex;
+  align-items: center;
+  column-gap: 5px;
+  color: #ffffff;
+}
+.tit-cont p {
+  color: #ffffff;
+  font-weight: bold;
+  font-family: "Roboto", serif;
+}
+.tit-cont img {
+  width: 40px;
+}
+.sec1 {
+  display: flex;
+  flex-direction: column;
+  gap: 57px;
+  width: 81%;
+  flex-wrap: wrap;
+}
+.sec1-cont {
+  width: 86%;
+}
+.sec1-cont p {
+  color: #f4f4f4;
+  font-family: "Poppins", serif;
+}
+.sec1-icons {
+  position: relative;
+  right: 17px;
+}
+
+.sec1-icons i {
+  color: #f4f4f4;
+  padding: 10px;
+  margin-left: 20px;
+  border: 1px solid white;
+  transition: all 0.2s ease-in-out;
+}
+.sec1-icons i:hover {
+  background-color: white;
+  color: #393e46;
+  cursor: pointer;
+}
+.other-sec {
+  width: 45%;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 87px;
+}
+.other-sec h3 {
+  margin-bottom: 25px;
+  color: #ffffff;
+  font-family: "Poppins", serif;
+}
+.other-sec a {
+  margin-top: 15px;
+  color: #f4f4f4;
+  font-family: "Poppins", serif;
+}
+.other-sec a:hover {
+  color: #d8d2d2;
+  cursor: pointer;
+}
+.sec2-title {
+  display: flex;
+  flex-direction: column;
+}
+.sec3-title {
+  display: flex;
+  flex-direction: column;
+}
+
+.sec4-title {
+  display: flex;
+  flex-direction: column;
+}
+.sec5-title {
+  display: flex;
+  flex-direction: column;
+}
+.mail {
+  margin-top: 12px;
+}
+i.fa-brands.fa-facebook-f {
+  padding: 10px 13px;
+}
+i.fa-brands.fa-linkedin-in {
+  padding: 10px 12px;
+}
+i.fa-brands.fa-instagram {
+  padding: 10px 12px;
+}
+@media (max-width: 1024px) and (min-width: 900px) {
+  .other-sec {
+    width: 45%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 50px;
+  }
+}
+@media (max-width: 900px) and (min-width: 800px) {
+  .other-sec {
+    width: 45%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 32px;
+  }
+}
+@media (max-width: 800px) and (min-width: 700px) {
+  .other-sec {
+    width: 45%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 32px;
+  }
+  .footer-containner {
+    width: 99%;
+    margin: auto;
+    height: 27rem;
+    display: flex;
+    align-items: center;
+  }
+  .sec1 {
+    display: flex;
+    flex-direction: column;
+    gap: 57px;
+    width: 81%;
+    flex-wrap: wrap;
+    margin-left: 20px;
+  }
+}
+@media (max-width: 700px) and (min-width: 600px) {
+  .other-sec {
+    width: 45%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 12px;
+  }
+  .footer-containner {
+    width: 99%;
+    margin: auto;
+    height: 27rem;
+    display: flex;
+    align-items: center;
+  }
+  .sec5 {
+    margin-top: 15px;
+  }
+
+  .footer {
+    width: 100%;
+    height: 27rem;
+    background-color: #393e46;
+    margin-top: 20px;
+    position: relative;
+    top: 26px;
+  }
+  .sec1 {
+    display: flex;
+    flex-direction: column;
+    gap: 57px;
+    width: 81%;
+    flex-wrap: wrap;
+    margin-left: 20px;
+  }
+}
+@media (max-width: 600px) and (min-width: 500px) {
+  .main-sec {
+    width: 58%;
+    margin-left: 8px;
+    margin-top: 97px;
+  }
+  .footer-containner {
+    width: 99%;
+    margin: auto;
+    height: 52rem;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+  }
+  .sec5 {
+    margin-top: 15px;
+  }
+  .footer {
+    width: 100%;
+    height: 53rem;
+    background-color: #393e46;
+    margin-top: 20px;
+    position: relative;
+    top: 26px;
+  }
+  .sec1 {
+    display: flex;
+    flex-direction: column;
+    gap: 57px;
+    width: 100%;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+  }
+  .other-sec {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 68px;
+    margin-top: 22px;
+    justify-content: center;
+  }
+  .sec5-title h3 {
+    margin-left: 32px;
+    margin-top: 20px;
+  }
+  .tit-cont {
+    display: flex;
+    align-items: center;
+    column-gap: 5px;
+    color: #ffffff;
+    margin-right: 43px;
+  }
+}
+
+@media (max-width: 500px) and (min-width: 400px) {
+  .main-sec {
+    width: 66%;
+    margin-left: 8px;
+    margin-top: 29px;
+  }
+  .footer-containner {
+    width: 99%;
+    margin: auto;
+    height: 52rem;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+  }
+  .sec5 {
+    margin-top: 15px;
+  }
+  .footer {
+    width: 100%;
+    height: 53rem;
+    background-color: #393e46;
+    margin-top: 20px;
+    position: relative;
+    top: 26px;
+  }
+  .sec1 {
+    display: flex;
+    flex-direction: column;
+    gap: 57px;
+    width: 100%;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+  }
+  .other-sec {
+    width: 92%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 12px;
+    margin-top: 22px;
+    justify-content: center;
+  }
+  .other-sec a {
+    margin-top: 15px;
+    color: #f4f4f4;
+    font-family: "Poppins", serif;
+    margin-right: 19px;
+  }
+  .sec5-title h3 {
+    margin-left: 32px;
+    margin-top: 20px;
+  }
+  .tit-cont {
+    display: flex;
+    align-items: center;
+    column-gap: 5px;
+    color: #ffffff;
+    margin-right: 32px;
+  }
+}
+@media (max-width: 400px) and (min-width: 320px) {
+  .main-sec {
+    width: 75%;
+    margin-left: 8px;
+    margin-top: 29px;
+  }
+  .tit-cont {
+    display: flex;
+    align-items: center;
+    column-gap: 5px;
+    color: #ffffff;
+    justify-content: center;
+    margin-right: 36px;
+  }
+  .footer-containner {
+    width: 100%;
+    margin: auto;
+    height: 52rem;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+  }
+  .sec5 {
+    margin-top: 15px;
+  }
+  .footer {
+    width: 100%;
+    height: 53rem;
+    background-color: #393e46;
+    margin-top: 20px;
+    position: relative;
+    top: 26px;
+  }
+  .sec1 {
+    display: flex;
+    flex-direction: column;
+    gap: 57px;
+    width: 100%;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+  }
+  .other-sec {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 6px;
+    margin-top: 24px;
+    justify-content: center;
+    column-gap: 15px;
+  }
+  .other-sec a {
+    margin-top: 20px;
+    color: #f4f4f4;
+    font-family: "Poppins", serif;
+    margin-right: 19px;
+    font-size: 13px;
+  }
+  .sec5-title h3 {
+    margin-left: 16px;
+    margin-top: 20px;
+  }
+}

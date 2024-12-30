@@ -1,0 +1,531 @@
+.WHAT-WE-GIVE{
+    width: 100%;
+    height: 38rem;
+    background-color: #F5F5F5;
+}
+.WHAT-contaninerr {
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    height: 38rem;
+    gap: 52px;
+    flex-wrap: wrap;
+    width: 100%;
+    animation-name: leftright;
+    animation-duration: 3s;
+}
+@keyframes leftright{
+    from{
+       height: 0%;
+    }
+    to{
+        height: 100%;
+    }
+}
+.card-content{
+    width: 90%;
+    margin: auto;
+}
+.card1 {
+    width: 242px;
+    height: 250px;
+    border-radius: 12px;
+    background-color: #545BE8;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    gap: 10px;
+   cursor: pointer;
+}
+.person-img i{
+    color: #FFD43B;
+    padding: 10px 11px;
+    background-color: #fff;
+    border-radius: 20px;
+}
+.person-img2 i{
+    color: #FFD43B;
+    padding: 11px 9px;
+    background-color: #fff;
+    border-radius: 20px;
+}
+.person-img3 i{
+    color: #FFD43B;
+    padding: 10px 10px;
+    background-color: #fff;
+    border-radius: 20px;
+}
+.card-content h2 {
+    font-family: "Inter", serif;
+    font-size: 18px;
+    margin-top: 19px;
+    margin-bottom: 13px;
+    color: #fff;
+}
+.card-content p {
+    font-family: "Poppins", serif;
+    color: #DDDDDD;
+    font-size: 15px;
+}
+.card1:hover {
+    box-shadow: 0px 0px 19px 1px #545BE8;
+
+}
+.WHAT-right{
+    width: 25%;
+}
+.arrow-controls{
+    position: relative;
+    right: 65px;
+    top: 31%;
+}
+.arrow-controls img{
+    cursor: pointer;
+}
+.arrow-btn{
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+
+}
+.img-control button{
+    all: unset;
+    background: #F0C932;
+    padding: 6px 10px;
+    border-radius: 24px;
+    cursor: pointer;
+    margin-right: 8px;
+}
+.img-control button i{
+    color: #fff;
+}
+.lets2{
+    color: #545BE8;
+    font-family: "Inter", serif;
+    font-weight: 400;
+}
+.WHAT-right h2  {
+    font-size: 45px;
+    font-family: "Poppins", serif;
+
+}
+.lorem5{
+    font-family: "Poppins", serif;
+    color: #969696;
+}
+@media (max-width: 1376px) and (min-width: 1210px){
+    .WHAT-contaninerr {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 38rem;
+        gap: 52px;
+        flex-wrap: wrap;
+        width: 100%;
+        animation-name: leftright;
+        animation-duration: 3s;
+    }
+    .arrow-controls {
+        position: relative;
+        top: 0;
+        right: 0;
+    }
+}
+@media (max-width: 1210px) and (min-width: 1100px){
+    .WHAT-contaninerr {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 38rem;
+        gap: 16px;
+        flex-wrap: wrap;
+        width: 100%;
+        animation-name: leftright;
+        animation-duration: 3s;
+    }
+    .arrow-controls {
+        position: relative;
+        top: 0;
+        right: 0;
+    }
+}
+@media (max-width: 1100px) and (min-width: 1000px){
+    .WHAT-contaninerr {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 38rem;
+        gap: 9px;
+        flex-wrap: wrap;
+        width: 100%;
+        animation-name: leftright;
+        animation-duration: 3s;
+    }
+    .arrow-controls {
+        position: relative;
+        top: 0;
+        right: 0;
+    }
+    .card1 {
+        width: 228px;
+        height: 250px;
+        border-radius: 12px;
+        background-color: #545BE8;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        gap: 10px;
+        cursor: pointer;
+    }
+}
+@media (max-width: 1000px) and (min-width: 900px){
+    .WHAT-contaninerr {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 38rem;
+        gap: 3px;
+        flex-wrap: wrap;
+        width: 100%;
+        animation-name: leftright;
+        animation-duration: 3s;
+    }
+    .arrow-controls {
+        position: relative;
+        top: 0;
+        right: 0;
+    }
+    .card1 {
+        width: 220px;
+        height: 250px;
+        border-radius: 12px;
+        background-color: #545BE8;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        gap: 10px;
+        cursor: pointer;
+    }
+}
+@media (max-width: 900px) and (min-width: 800px){
+    .WHAT-contaninerr {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 38rem;
+        gap: 3px;
+        flex-wrap: wrap;
+        width: 100%;
+        animation-name: leftright;
+        animation-duration: 3s;
+    }
+    .arrow-controls {
+        position: relative;
+        top: 0;
+        right: 0;
+    }
+    .card1 {
+        width: 220px;
+        height: 250px;
+        border-radius: 12px;
+        background-color: #545BE8;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        gap: 10px;
+        cursor: pointer;
+    }
+    .WHAT-right {
+        width: 79%;
+    }
+}
+@media (max-width: 800px) and (min-width: 700px){
+    .WHAT-contaninerr {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 38rem;
+        gap: 3px;
+        flex-wrap: wrap;
+        width: 100%;
+        animation-name: leftright;
+        animation-duration: 3s;
+    }
+    .arrow-controls {
+        position: relative;
+        top: 0;
+        right: 0;
+    }
+    .card1 {
+        width: 220px;
+        height: 250px;
+        border-radius: 12px;
+        background-color: #545BE8;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        gap: 10px;
+        cursor: pointer;
+    }
+    .WHAT-right {
+        width: 79%;
+    }
+}
+@media (max-width: 700px) and (min-width: 600px){
+    .WHAT-contaninerr {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 38rem;
+        gap: 3px;
+        flex-wrap: wrap;
+        width: 100%;
+        animation-name: leftright;
+        animation-duration: 3s;
+    }
+    .arrow-controls {
+        position: relative;
+        top: 0;
+        right: 0;
+    }
+    .card1 {
+        width: 279px;
+        height: 214px;
+        border-radius: 12px;
+        background-color: #545BE8;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        gap: 10px;
+        cursor: pointer;
+    }
+    .WHAT-right {
+        width: 79%;
+    }
+    .WHAT-right h2 {
+        font-size: 35px;
+        font-family: "Poppins", serif;
+    }
+}
+@media (max-width: 600px) and (min-width: 500px){
+    .WHAT-contaninerr {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 43rem;
+        gap: 3px;
+        flex-wrap: wrap;
+        width: 100%;
+        animation-name: leftright;
+        animation-duration: 3s;
+    }
+    .arrow-controls {
+        position: relative;
+        top: 0;
+        right: 0;
+    }
+    .card1 {
+        width: 237px;
+        height: 214px;
+        border-radius: 12px;
+        background-color: #545BE8;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        gap: 10px;
+        cursor: pointer;
+    }
+    .WHAT-right {
+        width: 79%;
+    }
+    .WHAT-right h2 {
+        font-size: 35px;
+        font-family: "Poppins", serif;
+    }
+    .WHAT-WE-GIVE {
+        width: 100%;
+        height: 43rem;
+        background-color: #F5F5F5;
+    }
+}
+@media (max-width: 500px) and (min-width: 477px){
+    .WHAT-contaninerr {
+        display: flex;
+        height: 61rem;
+        gap: 3px;
+        flex-wrap: wrap;
+        width: 100%;
+        animation-duration: 3s;
+        flex-direction: row;
+        justify-content: space-around;
+        animation: none;
+    }
+ 
+    .arrow-controls {
+        position: relative;
+        top: 0;
+        right: 0;
+    }
+    .card1 {
+        width: 237px;
+        height: 214px;
+        border-radius: 12px;
+        background-color: #545BE8;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        gap: 10px;
+        cursor: pointer;
+    }
+    .WHAT-right {
+        width: 82%;
+        text-align: center;
+    }
+    .WHAT-right h2 {
+        font-size: 35px;
+        font-family: "Poppins", serif;
+    }
+    .WHAT-WE-GIVE {
+        width: 100%;
+        height: 61rem;
+        background-color: #F5F5F5;
+    }
+}
+@media (max-width: 500px) and (min-width: 450px) {
+    .WHAT-right {
+        width: 90%;
+        text-align: center;
+    }
+}
+@media (max-width: 450px) and (min-width: 400px) {
+    .WHAT-right {
+        width: 90%;
+        text-align: center;
+    }
+}
+@media (max-width: 477px) and (min-width: 401px){
+    .WHAT-contaninerr {
+        display: flex;
+        height: 61rem;
+        gap: 3px;
+        flex-wrap: wrap;
+        width: 100%;
+        animation-duration: 3s;
+        flex-direction: row;
+        justify-content: space-around;
+        animation: none;
+    }
+ 
+    .arrow-controls {
+        position: relative;
+        top: 0;
+        right: 0;
+    }
+    .card1 {
+        width: 237px;
+        height: 214px;
+        border-radius: 12px;
+        background-color: #545BE8;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        gap: 10px;
+        cursor: pointer;
+    }
+    .WHAT-right {
+        width: 90%;
+        text-align: center;
+    }
+    .WHAT-right h2 {
+        font-size: 35px;
+        font-family: "Poppins", serif;
+    }
+    .WHAT-WE-GIVE {
+        width: 100%;
+        height: 61rem;
+        background-color: #F5F5F5;
+    }
+}
+@media (max-width: 450px) and (min-width: 400px){
+    .WHAT-contaninerr {
+        display: flex;
+        height: 76rem;
+        gap: 3px;
+        width: 100%;
+        flex-direction: column;
+        justify-content: space-around;
+        animation: none;
+    }
+
+    .arrow-controls {
+        position: relative;
+        top: 0;
+        right: 0;
+    }
+    .card1 {
+        width: 210px;
+        height: 212px;
+        border-radius: 12px;
+        background-color: #545BE8;
+        display: flex;
+        flex-direction: column;
+        cursor: pointer;
+        flex-wrap: wrap;
+    }
+    .WHAT-right {
+        width: 80%;
+    }
+    .WHAT-right h2 {
+        font-size: 35px;
+        font-family: "Poppins", serif;
+    }
+    .WHAT-WE-GIVE {
+        width: 100%;
+        height: 76rem;
+        background-color: #F5F5F5;
+    }
+}
+@media (max-width: 400px) and (min-width: 320px){
+    .WHAT-contaninerr {
+        display: flex;
+        height: 61rem;
+        gap: 3px;
+        flex-wrap: wrap;
+        width: 100%;
+        animation-duration: 3s;
+        flex-direction: column;
+        justify-content: space-around;
+        animation: none;
+    }
+ 
+    .arrow-controls {
+        position: relative;
+        top: 0;
+        right: 0;
+    }
+    .card1 {
+        width: 237px;
+        height: 214px;
+        border-radius: 12px;
+        background-color: #545BE8;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        gap: 10px;
+        cursor: pointer;
+    }
+    .WHAT-right {
+        width: 79%;
+        text-align: center;
+
+    }
+    .WHAT-right h2 {
+        font-size: 35px;
+        font-family: "Poppins", serif;
+    }
+    .WHAT-WE-GIVE {
+        width: 100%;
+        height: 63rem;
+        background-color: #F5F5F5;
+    }
+}

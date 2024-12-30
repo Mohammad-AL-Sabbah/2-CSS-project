@@ -1,0 +1,191 @@
+.Testimonials{
+    height: 16rem;
+    margin-bottom: 50px;
+
+}
+.Testimonials-container{
+    display: flex;
+    justify-content: center;
+    gap: 24px;
+    flex-wrap: wrap;
+
+}
+.Testimonials-card1 {
+    width: 39%;
+    height: 16rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    box-shadow: 0px 0px 9px -3px black;
+    cursor: pointer;
+    animation-name: topdoons;
+    animation-duration: 3s;
+}
+.Testimonials-card1:hover{
+    box-shadow: 0px 0px 14px -1px #545BE8;
+}
+.Testimonials-card2{
+    width: 39%;
+    height: 16rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    box-shadow: 0px 0px 9px -3px black;
+    cursor: pointer;
+    animation-name: topdoons2;
+    animation-duration: 3s;
+}
+.Testimonials-card2:hover{
+    box-shadow: 0px 0px 14px -1px #545BE8;
+}
+.presonal-detalis{
+    display: flex;
+    margin-top: 25px;
+    margin-left: 15px;
+}
+.presonal-detalis2{
+    display: flex;
+    margin-top: 25px;
+    margin-left: 15px;
+}
+.presonal-detalis img {
+    width: 51px;
+    height: 54px;
+}
+.presonal-detalis2 img {
+    width: 50px;
+
+}
+.kind-of{
+    margin-left: 10px;
+}
+.kind-of h3{
+    font-family: "Poppins", serif;
+}
+.kind-of p{
+    margin-top: 15px;
+    color: #969696;
+}
+.stars{
+    margin-left: 22px;
+    font-size: 20px;
+
+}
+.caption-lorem p {
+    font-family: "Poppins", serif;
+    color: #646464;
+    font-size: 17px;
+}
+.caption-lorem{
+    margin-left: 22px;
+}
+@keyframes topdoons{
+    from{
+        position: relative;
+        right: 120px;
+        }
+    to{
+        position: relative;
+        right: 0px;
+    }
+}
+@keyframes topdoons2{
+    from{
+        position: relative;
+        left: 120px;
+        }
+    to{
+        position: relative;
+        left: 0px;
+    }
+}
+@media (max-width: 700px) and (min-width: 500px) {
+
+    .Testimonials-card1 {
+        width: 39%;
+        height: 19rem;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        box-shadow: 0px 0px 9px -3px black;
+        cursor: pointer;
+        animation-name: topdoons;
+        animation-duration: 3s;
+    }
+    .Testimonials-card2{
+        width: 39%;
+        height: 19rem;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        box-shadow: 0px 0px 9px -3px black;
+        cursor: pointer;
+        animation-name: topdoons2;
+        animation-duration: 3s;
+    }
+
+}
+
+@media (max-width: 500px) and (min-width: 400px) {
+    .Testimonials {
+        height: 40rem;
+        margin-bottom: 50px;
+    }
+    .Testimonials-card1 {
+        width: 63%;
+        height: 19rem;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        box-shadow: 0px 0px 9px -3px black;
+        cursor: pointer;
+        animation-name: topdoons;
+        animation-duration: 3s;
+    }
+    .Testimonials-card2{
+        width: 63%;
+        height: 19rem;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        box-shadow: 0px 0px 9px -3px black;
+        cursor: pointer;
+        animation-name: topdoons2;
+        animation-duration: 3s;
+    }
+
+}
+@media (max-width: 400px) and (min-width: 320px) {
+    .caption-lorem p {
+        font-family: "Poppins", serif;
+        color: #646464;
+        font-size: 15px;
+    }
+    .Testimonials {
+        height: 40rem;
+        margin-bottom: 50px;
+    }
+    .Testimonials-card1 {
+        width: 63%;
+        height: 19rem;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        box-shadow: 0px 0px 9px -3px black;
+        cursor: pointer;
+        animation-name: topdoons;
+        animation-duration: 3s;
+    }
+    .Testimonials-card2{
+        width: 63%;
+        height: 19rem;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        box-shadow: 0px 0px 9px -3px black;
+        cursor: pointer;
+        animation-name: topdoons2;
+        animation-duration: 3s;
+    }
+
+}

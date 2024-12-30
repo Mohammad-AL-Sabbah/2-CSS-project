@@ -1,0 +1,372 @@
+.F-hero-section {
+  height: 30rem;
+  background-color: rgb(255, 255, 255);
+  display: flex;
+  justify-content: space-between;
+}
+.content1-img img {
+  width: 440px;
+  animation-name: topdoww;
+  animation-duration: 2s;
+}
+@keyframes topdoww{
+  from{
+    width:  0px;
+
+   }
+   to{
+    width:440px;
+
+   }
+}
+.content1 {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  height: 27rem;
+  position: relative;
+  top: 11px;
+}
+.content1-p h1 {
+  font-size: 63px;
+  width: 73%;
+  font-family: "Poppins", serif;
+}
+.content1-p h1 span {
+  font-size: 63px;
+  width: 73%;
+  font-family: "Poppins", serif;
+  color: #545be8;
+}
+.lorem {
+  width: 70%;
+  font-family: "Poppins", serif;
+  color: #969696;
+}
+.lets {
+  width: 7%;
+  line-height: 20px;
+  color: #545be8;
+  font-weight: bold;
+  font-family: "Inter", serif;
+}
+.content1-btn {
+  width: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: start;
+  gap: 31px;
+  flex-wrap: wrap;
+}
+
+.fa-play {
+  margin-right: 10px;
+  padding: 8px 8px 8px 12px;
+  background-color: gold;
+  border-radius: 23px;
+  color: #ffff;
+}
+@media (max-width: 1283px) and (min-width: 1100px) {
+  .container {
+    width: 95%;
+    margin: auto;
+  }
+}
+
+@media (max-width: 1100px) and (min-width: 1000px) {
+  .container {
+    width: 95%;
+    margin: auto;
+  }
+
+  .content1-p h1 {
+    font-size: 48px;
+    width: 73%;
+    font-family: "Poppins", serif;
+  }
+}
+
+@media (max-width: 1000px) and (min-width: 900px) {
+  .container {
+    width: 95%;
+    margin: auto;
+  }
+
+  .content1-p h1 {
+    font-size: 41px;
+    width: 73%;
+    font-family: "Poppins", serif;
+    line-height: 46px;
+  }
+  .content1-p h1 span {
+    font-size: 48px;
+    width: 73%;
+    font-family: "Poppins", serif;
+    color: #545be8;
+  }
+}
+
+@media (max-width: 900px) and (min-width: 800px) {
+  .container {
+    width: 95%;
+    margin: auto;
+  }
+
+  .content1-p h1 {
+    font-size: 41px;
+    width: 73%;
+    font-family: "Poppins", serif;
+    line-height: 46px;
+  }
+  .content1-p h1 span {
+    font-size: 48px;
+    width: 73%;
+    font-family: "Poppins", serif;
+    color: #545be8;
+  }
+}
+
+@media (max-width: 800px) and (min-width: 600px) {
+  .container {
+    width: 95%;
+    margin: auto;
+  }
+
+  .content1-p h1 {
+    font-size: 31px;
+    width: 100%;
+    font-family: "Poppins", serif;
+    line-height: 48px;
+  }
+  .content1-p h1 span {
+    font-size: 48px;
+    width: 73%;
+    font-family: "Poppins", serif;
+    color: #545be8;
+  }
+  .content1 {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    height: 30rem;
+    position: relative;
+  }
+  .content1-img img {
+    width: 300px;
+  }
+  @keyframes topdoww{
+    from{
+      width:  0px;
+  
+     }
+     to{
+      width:440px;
+  
+     }
+  }
+}
+
+@media (max-width: 600px) and (min-width: 500px) {
+  .container {
+    width: 95%;
+    margin: auto;
+  }
+
+  .content1-p h1 {
+    font-size: 31px;
+    width: 100%;
+    font-family: "Poppins", serif;
+    line-height: 48px;
+  }
+  .content1-p h1 span {
+    font-size: 48px;
+    width: 73%;
+    font-family: "Poppins", serif;
+    color: #545be8;
+  }
+  .content1 {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    height: 30rem;
+    position: relative;
+  }
+  .content1-img img {
+    width: 200px;
+  }
+  @keyframes topdoww{
+    from{
+      width:  0px;
+  
+     }
+     to{
+      width:200px;
+  
+     }
+  }
+}
+
+@media (max-width: 500px) and (min-width: 400px) {
+  .container {
+    width: 95%;
+    margin: auto;
+  }
+  .Play-Video{
+    font-size: 11px;
+  }
+
+  .content1-p h1 {
+    font-size: 31px;
+    width: 100%;
+    font-family: "Poppins", serif;
+    line-height: 48px;
+  }
+  .content1-p h1 span {
+    font-size: 48px;
+    width: 73%;
+    font-family: "Poppins", serif;
+    color: #545be8;
+  }
+  .content1 {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    height: 29rem;
+    position: relative;
+  }
+  .content1-img img {
+    width: 200px;
+  }
+  .lets {
+    width: 58%;
+    line-height: 20px;
+    color: #545be8;
+    font-weight: bold;
+    font-family: "Inter", serif;
+  }
+  .navbar {
+    height: 4rem;
+    width: 100%;
+    background-color: #ffffff;
+    box-shadow: -6px 0px 21px 0px black;
+    position: sticky;
+    top: 0;
+    z-index: 55555;
+  }
+  .lorem {
+    width: 70%;
+    font-family: "Poppins", serif;
+    color: #969696;
+    font-size: 10px;
+  }
+  @keyframes topdoww{
+    from{
+      width:  0px;
+  
+     }
+     to{
+      width:200px;
+  
+     }
+  }
+}
+
+@media (max-width: 400px) and (min-width: 320px) {
+  .container {
+    width: 95%;
+    margin: auto;
+  }
+
+  .content1-p h1 {
+    font-size: 31px;
+    width: 100%;
+    font-family: "Poppins", serif;
+    line-height: 48px;
+  }
+  .content1-p h1 span {
+    font-size: 48px;
+    width: 73%;
+    font-family: "Poppins", serif;
+    color: #545be8;
+  }
+  .content1 {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    height: 29rem;
+    position: relative;
+  }
+  .content1-img img {
+    width: 200px;
+    margin-left: 34%;
+    margin-bottom: 5px;
+  }
+  .lets {
+    width: 58%;
+    line-height: 20px;
+    color: #545be8;
+    font-weight: bold;
+    font-family: "Inter", serif;
+  }
+  .navbar {
+    height: 4rem;
+    width: 100%;
+    background-color: #ffffff;
+    box-shadow: -6px 0px 21px 0px black;
+    position: sticky;
+    top: 0;
+    z-index: 55555;
+  }
+  .lorem {
+    width: 70%;
+    font-family: "Poppins", serif;
+    color: #969696;
+    font-size: 10px;
+  }
+  body.dark .Play-Video {
+    color: #ffff;
+    font-size: 10px;
+  }
+  .F-hero-section {
+    height: 30rem;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+  }
+  .Register {
+    padding: 7px 6px 7px 6px;
+    border-radius: 8px;
+    font-family: "Inter", serif;
+    font-weight: 600;
+    font-size: 13px;
+    background-color: var(--Main-color);
+    color: #ffffff;
+    transition: all 0.2s ease-in-out;
+    display: none;
+  }
+  .log-in {
+    border: 1px solid;
+    padding: 6px 15px 6px 15px;
+    border-radius: 6px;
+    font-family: "Inter", serif;
+    font-weight: 600;
+    font-size: 13px;
+    transition: all 0.2s ease-in-out;
+  }
+  @keyframes topdoww{
+    from{
+      width:  0px;
+  
+     }
+     to{
+      width:200px;
+  
+     }
+  }
+}
